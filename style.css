@@ -1,0 +1,31 @@
+:root{--bg:#f4f1fb;--ink:#1f1147;--muted:#5d5678;--f:"Sora","Segoe UI",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#150d2e;--ink:#f1ecff;--muted:#b3a9d6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.05rem/1.55 var(--f)}
+.hero{position:relative;height:min(100vh,760px);min-height:520px;overflow:hidden}
+#stage{position:absolute;inset:0;width:100%;height:100%}
+.head{position:relative;padding:2.5rem 1.25rem 0;max-width:960px;margin:0 auto;pointer-events:none}
+h1{font-size:clamp(3.2rem,13vw,8rem);line-height:.95;margin:0;letter-spacing:-.05em;font-weight:800}
+.lede{max-width:36ch;color:var(--muted);font-size:1.2rem;margin:1rem 0}
+.chip{display:inline-block;background:var(--ink);color:var(--bg);padding:.2rem .8rem;border-radius:99px;font-size:.9rem}
+.tour,footer{max-width:960px;margin:0 auto;padding:2rem 1.25rem}
+.tour h2,footer h2{margin:0 0 1rem}
+.tour a{display:grid;grid-template-columns:1.2rem 9rem 1fr auto;gap:1rem;align-items:center;padding:1.1rem 0;border-top:1px solid rgba(127,127,127,.35);color:var(--ink);text-decoration:none;transition:padding-left .25s}
+.tour a::before{content:"";width:1rem;height:1rem;border-radius:50%;background:var(--c)}
+.tour a:hover,.tour a:focus-visible{padding-left:.8rem;outline:none}
+.tour a:focus-visible b{text-decoration:underline}
+.tour b{font-size:1.5rem;letter-spacing:-.02em}
+.tour span{color:var(--muted)}.tour small{color:var(--muted)}
+footer p{max-width:60ch}.meta{color:var(--muted);font-size:.9rem}
+@media (max-width:700px){.tour a{grid-template-columns:1.2rem 1fr}.tour span,.tour small{grid-column:2}}
+.head h1{overflow:hidden;padding-bottom:.08em}
+.l{display:inline-block;transform:translateY(110%);animation:rise .9s cubic-bezier(.2,.9,.2,1) forwards;animation-delay:calc(var(--i)*80ms)}
+@keyframes rise{to{transform:none}}
+.js .tour a{opacity:0;transform:translateX(-40px)}
+.js .tour a.in{opacity:1;transform:none;transition:opacity .6s,transform .6s cubic-bezier(.2,.9,.2,1),padding-left .25s}
+@media (prefers-reduced-motion:reduce){.l{animation:none;transform:none}.js .tour a{opacity:1;transform:none}}
+.head h1{overflow:visible}
+.l{transform:none;animation:bob 2.8s ease-in-out infinite;animation-delay:calc(var(--i)*-.3s)}
+@keyframes bob{50%{transform:translateY(-.07em)}}
+#stage{touch-action:pan-y}
+@media (prefers-reduced-motion:reduce){.l{animation:none}}

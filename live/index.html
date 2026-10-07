@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Live – Crestline</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap"><a class="back" href="../index.html">Back to Crestline</a>
+<h1>Live</h1><p class="sub">Real-time analytics. Numbers update every second while the page is open.</p>
+<div class="card"><div class="row"><div><div class="sub" style="margin:0">People on the site now</div><div class="big" id="now">0</div></div><button id="pause" aria-pressed="false">Pause</button></div>
+<div class="plot"><svg viewBox="0 0 600 160" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--pink);stop-opacity:.45"/><stop offset="1" style="stop-color:var(--pink);stop-opacity:0"/></linearGradient></defs><polygon id="area" fill="url(#g)"/><polyline class="line" id="line"/></svg><span class="ping" id="ping"></span></div></div>
+<div class="card"><b>Busiest pages</b><div id="pages"></div></div>
+</div><script src="../shared/ask-gemini.js"></script><script src="script.js"></script></body></html>
