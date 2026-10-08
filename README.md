@@ -1,38 +1,46 @@
 # Crestline
 
-Four Analytics & Data Visualization interfaces. The hub is a field of four animated waves. Each wave is one screen: hover to lift it, click to open it.
+Four analytics screens, each reached through a layered-wave navigation hub.
 
 ## Team
-One developer using two GitHub accounts to practise the full team workflow (fork, branch, pull request, review, merge).
-- **@madhav1-007** (repo owner): hub page, Revenue, Funnel
-- **@siddupati4-hue** (forks and opens PRs): Cohorts, Live
+- Team name: Crestline
+- Members: madhav1-007 and siddupati4-hue (2 members)
 
-## Topic research (Analytics & Data Visualization)
-- **What:** screens that turn raw numbers into charts and summaries people can act on.
-- **Where used:** SaaS dashboards, marketing tools, finance and operations screens.
-- **Why relevant:** teams make decisions from data, so charts must be fast to read.
-- **Patterns observed:** headline number plus chart, range switchers, hover readouts, heatmaps, funnels, live updates.
-- **What we add:** one idea across the whole project. One idea across the whole project: each wave on the hub is a screen.
+## Selected UI topic
+Analytics & Data Visualization: Revenue Analytics, Conversion Funnel,
+Retention & Cohort Analytics and Real-time Analytics, with an AI
+"Ask Your Data" box powered by Google Gemini.
+
+## Topic research
+- **What the pattern is:** An analytics dashboard turns raw numbers into charts so people can understand them quickly.
+- **Where it is commonly used:** Business tools, marketing platforms, finance apps and product analytics.
+- **Why it matters for modern web interfaces:** Most software now has a dashboard, and good charts help users decide faster.
+- **Patterns observed:** Cards with big numbers, charts that react on hover, filters and colour to show trends.
+- **What we do differently:** a layered-wave navigation hub where each wave opens one screen, plus a Gemini question box on every screen.
 
 ## Implemented UIs
-| Folder | UI | Built by |
-|---|---|---|
-| `revenue/` | Revenue Analytics | @madhav1-007 |
-| `funnel/` | Conversion Funnel | @madhav1-007 |
-| `cohort/` | Retention & Cohort Analytics | @siddupati4-hue |
-| `live/` | Real-time Analytics | @siddupati4-hue |
+| Screen | Folder |
+|---|---|
+| Revenue | `revenue/` |
+| Funnel | `funnel/` |
+| Cohort | `cohort/` |
+| Live | `live/` |
 
-## Technologies
-HTML, CSS, JavaScript. No frameworks. Sample data only.
-
-## Run locally
-Open `index.html` in a browser. No build step.
+## Technologies used
+HTML, CSS, JavaScript, Google Gemini API
 
 ## Screenshots
-Add screenshots here after running the project.
+![Hub](screenshots/hub.png)
+![Revenue](screenshots/revenue.png)
+![Funnel](screenshots/funnel.png)
+![Cohort](screenshots/cohorts.png)
+![Live](screenshots/live.png)
 
-## Gemini
-`revenue/` has an optional "Ask Gemini" box. Visitors paste their own API key. Never commit a key to this repository.
+## How to run
+1. Download or clone the repository.
+2. Open `index.html` in a browser.
+3. Live site: https://madhav1-007.github.io/crestline/
+4. For the Gemini boxes, paste your own Gemini API key into the page. Never save it in a file.
 
-## Shared files
-`shared/ask-gemini.js` is the optional "Ask Gemini" box used by all four screens. It must be in the first commit (with the hub) so every screen can use it.
+## GitHub workflow
+Fork, clone, branch, commit, push, pull request, review, merge. See the Pull requests tab for the full history.
