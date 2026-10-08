@@ -13,3 +13,11 @@ Built by **@siddupati4-hue** as part of Crestline (Analytics & Data Visualizatio
 
 ## Optional: Ask Gemini
 Uses `../shared/ask-gemini.js`. Visitors paste their own key; it is never saved or committed.
+
+## Research
+
+- **What it is:** A cohort chart groups users by when they joined and shows how many of them come back over time.
+- **Where it is used:** Product analytics tools, SaaS dashboards, subscription and app reports.
+- **Why it matters:** It shows whether users stay, which is more useful than only counting sign-ups.
+- **Patterns I observed:** A heatmap grid where darker colours mean higher retention, with a row for each group and a column for each week.
+- **What mine does differently:** mostly same very little difference from my side,like hover detail and also the gemini box

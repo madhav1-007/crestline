@@ -1,4 +1,4 @@
-:root{--bg:#f4f1fb;--ink:#1f1147;--muted:#5d5678;--violet:#5b3df5;--pink:#ff5c8a;--teal:#00a896;--amber:#f5a524;--card:#fff;--f:"Sora","Segoe UI",system-ui,sans-serif}
+:root{--bg:#f4f1fb;--ink:#1f1147;--muted:#5d5678;--violet:#5b3df5;--pink:#ff5c8a;--teal:#00a896;--amber:#f5a524;--card:#fff;--f:"Arial","Segoe UI",sans-serif}
 @media (prefers-color-scheme:dark){:root{--bg:#150d2e;--ink:#f1ecff;--muted:#b3a9d6;--card:#20154a}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.5 var(--f)}
 .wrap{max-width:820px;margin:0 auto;padding:1.5rem 1.25rem 4rem}
