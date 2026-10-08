@@ -13,3 +13,11 @@ Built by **@madhav1-007** as part of Crestline (Analytics & Data Visualization).
 
 ## Optional: Ask Gemini
 The page has a box where a visitor can paste their **own** Gemini API key and ask a question about the chart. The key is kept only in the input box (never saved, never committed). Without a key the page works as normal. If the model names in `script.js` stop working, update the `MODELS` list.
+
+## Research
+
+- **What it is:** A revenue chart shows how money earned changes over time, usually as bars or a line.
+- **Where it is used:** SaaS dashboards, finance tools, sales reports.
+- **Why it matters:** Teams need to see growth and drops at a glance.
+- **Patterns I observed:** A big headline number, bars that highlight on hover, a time range filter.
+- **What mine does differently:** my chart is a bit custom made to my whishes by me.also there is a gemini search bar added by me.

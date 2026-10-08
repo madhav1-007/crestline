@@ -20,4 +20,4 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--amber);outline-offs
 .bar:hover,.bar.on{background:var(--pink)}
 
 .bar{transition:height .9s cubic-bezier(.34,1.56,.64,1),transform .2s,filter .2s}
-.bar:hover,.bar.on{transform:translateY(-6px);filter:drop-shadow(0 0 10px var(--pink))}
+.bar:hover,.bar.on{transform:translateY(-10px);filter:drop-shadow(0 0 10px var(--pink))}
