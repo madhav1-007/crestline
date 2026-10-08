@@ -13,3 +13,12 @@ Built by **@siddupati4-hue** as part of Crestline (Analytics & Data Visualizatio
 
 ## Optional: Ask Gemini
 Uses `../shared/ask-gemini.js`. Visitors paste their own key; it is never saved or committed.
+
+
+## Research
+
+- **What it is:** A real-time analytics view shows numbers and charts that update continuously, without the user refreshing the page.
+- **Where it is used:** Website traffic monitors, server and uptime dashboards, trading screens, delivery tracking, live sales boards.
+- **Why it matters:** Teams can react to problems and spikes as they happen instead of reading yesterday's report.
+- **Patterns I observed:** A moving line chart that scrolls to the left, a pulsing "live" indicator, a headline number that ticks up, and a pause or resume control.
+- **What mine does differently:** some custom modificaations from myself
