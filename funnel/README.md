@@ -13,3 +13,11 @@ Built by **@madhav1-007** as part of Crestline (Analytics & Data Visualization).
 
 ## Optional: Ask Gemini
 Uses `../shared/ask-gemini.js`. Visitors paste their own key; it is never saved or committed.
+
+## Research
+
+- **What it is:** A conversion funnel shows how many people make it through each step of a journey, such as visit, sign-up, trial and purchase.
+- **Where it is used:** E-commerce checkouts, SaaS sign-up flows, marketing reports, mobile app onboarding.
+- **Why it matters:** It shows exactly where users drop off, so teams know which step to fix first.
+- **Patterns I observed:** Horizontal or tapering bars that get narrower at each stage, percentages between steps, and highlighting for the biggest drop-off.
+- **What mine does differently:** i made some customization such as gemini box and few theme customization from my side
